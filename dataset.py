@@ -50,7 +50,9 @@ class eKYCDataset(Dataset):
         target['boxes'] = torch.as_tensor([anno['box']], dtype=torch.float32)
         target['area'] = torch.as_tensor([anno['area']])
         target['iscrowd'] = torch.as_tensor([anno['iscrowd']])
-        target['masks'] = torch.as_tensor(np.array(mask), dtype=torch.uint8)
+        target['masks'] = torch.as_tensor([np.array(mask)], dtype=torch.uint8)
+        print(target['masks'].shape)
+        exit(-1)
         if self.model_type == 'single':
             target['labels'] = torch.as_tensor([1], dtype=torch.int64)
         elif self.model_type == 'multiple':
