@@ -43,14 +43,14 @@ class eKYCDataset(Dataset):
         mask_path = os.path.join(self.root, 'masks', mask_file)
 
         img = Image.open(img_path).convert('RGB')
-        mask = Image.open(mask_path)
+        mask = Image.open(mask_path).convert('L')
 
         target = {}
         target['image_id'] = torch.tensor([id])
         target['boxes'] = torch.as_tensor([anno['box']], dtype=torch.float32)
         target['area'] = torch.as_tensor([anno['area']])
         target['iscrowd'] = torch.as_tensor([anno['iscrowd']])
-        target['masks'] = torch.as_tensor([np.array(mask)], dtype=torch.uint8)
+        target['masks'] = torch.as_tensor([np.array(mask).reshape(1024, 1024)], dtype=torch.uint8)
 
         if self.model_type == 'single':
             target['labels'] = torch.as_tensor([1], dtype=torch.int64)
