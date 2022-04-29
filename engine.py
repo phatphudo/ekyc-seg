@@ -7,6 +7,7 @@ import torchvision.models.detection.mask_rcnn
 import utils
 from coco_eval import CocoEvaluator
 from coco_utils import get_coco_api_from_dataset
+from tqdm import tqdm
 
 
 def train_one_epoch(model, optimizer, data_loader, device, epoch, print_freq, scaler=None):
@@ -112,4 +113,27 @@ def evaluate(model, data_loader, device):
     coco_evaluator.accumulate()
     coco_evaluator.summarize()
     torch.set_num_threads(n_threads)
+    return coco_evaluator
+
+
+@torch.inference_mode()
+def evaluate_(model, dataloader, device):
+    cpu_device = torch.device('cpu')
+    model.eval()
+
+    iou_types = ['segm']
+    coco = get_coco_api_from_dataset(dataloader.dataset)
+    coco_evaluator = CocoEvaluator(coco, iou_types)
+
+    for images, targets in tqdm(dataloader):
+        images = list(img.to(device) for img in images)
+        outputs = model(images)
+        outputs = [{k: v.to(cpu_device) for k, v in output.items()}  for output in outputs]
+
+        res = {target['image_id'].item(): output  for target, output in zip(targets, outputs)}
+        coco_evaluator.update(res)
+
+    coco_evaluator.synchronize_between_processes()
+    coco_evaluator.accumulate()
+    coco_evaluator.summarize()
     return coco_evaluator

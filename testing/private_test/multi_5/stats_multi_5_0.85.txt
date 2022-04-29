@@ -1,0 +1,47 @@
+                    Class |      Cases |    P @0.85 |    R @0.85 |  Acc @0.85 |   Clfn_acc
+       CitizenCardV1_back |        189 |      0.931 |      0.994 |     92.59% |     99.47%
+      CitizenCardV1_front |        189 |      0.968 |      1.000 |     96.83% |    100.00%
+       CitizenCardV2_back |        422 |      0.950 |      1.000 |     95.02% |    100.00%
+      CitizenCardV2_front |        422 |      0.967 |      1.000 |     96.68% |     99.53%
+  IdentificationCard_back |        552 |      0.891 |      1.000 |     89.13% |     99.82%
+ IdentificationCard_front |        558 |      0.950 |      0.996 |     94.62% |     99.64%
+                 Passport |         11 |      0.909 |      1.000 |     90.91% |     90.91%
+                      All |       2343 |      0.938 |      0.999 |     93.77% |     99.70%
+
+Total failed cases: 7
+--------------------------------------------------
+Result of image [back_1005401]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 59.94%
+--------------------------------------------------
+Result of image [front_1001139]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001139]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010296]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 65.71%
+--------------------------------------------------
+Result of image [front_1000076]:
+	Target: Passport
+	Prediction: IdentificationCard_front
+	Confidence: 99.68%
+--------------------------------------------------
+Result of image [front_1010872]:
+	Target: CitizenCardV2_front
+	Prediction: Passport
+	Confidence: 69.92%
+--------------------------------------------------
+Result of image [front_1001135]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+

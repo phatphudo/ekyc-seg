@@ -1,67 +1,60 @@
 import os
-import json
-
 import torch
-# from torchvision import transforms as T
-from torch.utils.data import Dataset, DataLoader, random_split
-
-import numpy as np
+from torch.utils.data import Dataset
+from pycocotools.coco import COCO
 from PIL import Image
+import numpy as np
 
+import config as cfg
 
-class eKYCDataset(Dataset):
-    def __init__(self, root, anno_file, model_type='single', transforms=None):
+MODEL_TYPE = cfg.MODEL_TYPE
+
+class CocoDetection(Dataset):
+    def __init__(self, root, annFile, transform=None):
         self.root = root
-        self.coco = json.load(open(anno_file, 'r'))
-
-        coco = self.coco
-        imgs, anns, cats = {}, {}, {}
-
-        for img in coco['images']:
-            imgs[img['id']] = img
-        for ann in coco['annotations']:
-            anns[ann['id']] = ann
-        for cat in coco['categories']:
-            cats[cat['id']] = cat
-        
-        self.imgs = imgs
-        self.ids = list(imgs.keys())
-        self.anns = anns
-        self.cats = cats
-
-        self.model_type = model_type
-        self.transforms = transforms
+        self.coco = COCO(annFile)
+        self.ids = list(self.coco.imgs.keys())
+        self.transform = transform
 
     def __getitem__(self, index):
-        id = self.ids[index]
-
-        img_file = self.imgs[id]['file_name']
-        mask_file = self.imgs[id]['mask_name']
-        anno = self.anns[id]
-
-        img_path = os.path.join(self.root, 'images', img_file)
-        mask_path = os.path.join(self.root, 'masks', mask_file)
-
-        img = Image.open(img_path).convert('RGB')
-        mask = Image.open(mask_path).convert('L')
+        coco = self.coco
+        img_id = self.ids[index]
+        ann_ids = coco.getAnnIds(imgIds=img_id)
+        anno = coco.loadAnns(ann_ids)[0]
 
         target = {}
-        target['image_id'] = torch.tensor([id])
-        target['boxes'] = torch.as_tensor([anno['box']], dtype=torch.float32)
-        target['area'] = torch.as_tensor([anno['area']])
-        target['iscrowd'] = torch.as_tensor([anno['iscrowd']])
-        target['masks'] = torch.as_tensor([np.array(mask).reshape(1024, 1024)], dtype=torch.uint8)
-
-        if self.model_type == 'single':
-            target['labels'] = torch.as_tensor([1], dtype=torch.int64)
-        elif self.model_type == 'multiple':
-            target['labels'] = torch.as_tensor([anno['category_id']], dtype=torch.int64)
-
-        if self.transforms:
-            trfm = self.transforms
-            img = trfm(img)
+        target['image_id'] = img_id
+        target['boxes'] = anno['bbox']
+        target['boxes'][2] += target['boxes'][0]
+        target['boxes'][3] += target['boxes'][1]
+        target['area'] = anno['area']
+        target['iscrowd'] = 0
+        target['masks'] = coco.annToMask(anno)
         
-        return img.type(torch.float32), target
+        if MODEL_TYPE == 'single':
+            target['labels'] = 1
+        elif MODEL_TYPE == 'multi':
+            target['labels'] = anno['category_id']
+
+        for k, v in target.items():
+            target[k] = torch.as_tensor(np.array([v]))
+
+        path = coco.loadImgs(img_id)[0]['file_name']
+        try:
+            img = Image.open(os.path.join(self.root, path)).convert('RGB')
+        except OSError:
+            print(f"Cannot load : {path}")
+
+        if self.transform is not None:
+            img = self.transform(img)
+
+        return img, target
 
     def __len__(self):
-        return len(self.imgs)
+        return len(self.ids)
+    
+    def get_height_and_width(self, index):
+        coco = self.coco
+        img_id = self.ids[index]
+        img_info = coco.loadImgs(img_id)[0]
+        return img_info['height'], img_info['width']

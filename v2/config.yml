@@ -1,0 +1,41 @@
+device: cuda:1
+
+model:
+  model_type: multi
+  run_no: 7
+  pretrained: True
+  ft_ext: False
+
+data:
+  - name: v2.0
+    data_root: '/mnt/data/phatdp/ekyc/v2.0/'
+    img_folder: images/
+    anno_file: annotations.json
+  - name: v2.1
+    data_root: '/mnt/data/phatdp/ekyc/v2.1/'
+    img_folder: images/
+    anno_file: annotations.json
+
+dataloader:
+  split_ratio: 0.1
+  batch_size: 4
+  num_workers: 2
+
+trainer:
+  epochs: 20
+  optim_fn: adam
+  optim_hp:
+    lr: 0.0001
+    weight_decay: 0.0001
+  lr_scheduler: one_cycle
+
+model_dir: '/mnt/data/phatdp/ekyc/checkpoints/'
+
+test_dir: '/mnt/data/phatdp/ekyc/private_dataset_2.0.1/'
+
+# data:
+#   name: a
+#   data_root: ./
+#   img_folder: images/
+#   anno_file: annotations.json
+      

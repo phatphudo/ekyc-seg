@@ -1,0 +1,223 @@
+                    Class |      Cases |     P @0.9 |     R @0.9 |   Acc @0.9 |   Clfn_acc
+       CitizenCardV1_back |        189 |      0.766 |      0.993 |     76.19% |     97.88%
+      CitizenCardV1_front |        189 |      0.904 |      0.988 |     89.42% |     95.77%
+       CitizenCardV2_back |        422 |      0.867 |      1.000 |     86.73% |     99.29%
+      CitizenCardV2_front |        421 |      0.926 |      1.000 |     92.64% |     98.57%
+  IdentificationCard_back |        552 |      0.597 |      0.997 |     59.60% |     99.64%
+ IdentificationCard_front |        559 |      0.801 |      0.998 |     79.96% |     96.78%
+                 Passport |         11 |      0.909 |      1.000 |     90.91% |     90.91%
+                      All |       2343 |      0.824 |      0.997 |     79.17% |     98.21%
+
+Total failed cases: 42
+--------------------------------------------------
+Result of image [front_1001096.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 73.59%
+--------------------------------------------------
+Result of image [front_1007144.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001139.jpg]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011683.jpg]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 54.96%
+--------------------------------------------------
+Result of image [front_1011745.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 89.94%
+--------------------------------------------------
+Result of image [back_1005123.jpg]:
+	Target: CitizenCardV1_back
+	Prediction: CitizenCardV2_back
+	Confidence: 75.59%
+--------------------------------------------------
+Result of image [front_1004857.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: CitizenCardV2_front
+	Confidence: 99.14%
+--------------------------------------------------
+Result of image [back_1010158.jpg]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 95.43%
+--------------------------------------------------
+Result of image [front_1005258.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: LicenseCard
+	Confidence: 92.58%
+--------------------------------------------------
+Result of image [front_1006394.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: CitizenCardV2_front
+	Confidence: 64.88%
+--------------------------------------------------
+Result of image [back_1001139.jpg]:
+	Target: CitizenCardV1_back
+	Prediction: Passport
+	Confidence: 95.51%
+--------------------------------------------------
+Result of image [front_1007744.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 53.96%
+--------------------------------------------------
+Result of image [front_1002922.jpg]:
+	Target: IdentificationCard_front
+	Prediction: CitizenCardV1_front
+	Confidence: 84.30%
+--------------------------------------------------
+Result of image [front_1010054.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1009552.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: LicenseCard
+	Confidence: 83.64%
+--------------------------------------------------
+Result of image [front_1006496.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 90.91%
+--------------------------------------------------
+Result of image [front_1010312.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: CitizenCardV2_front
+	Confidence: 78.98%
+--------------------------------------------------
+Result of image [back_1010054.jpg]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1003865.jpg]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.85%
+--------------------------------------------------
+Result of image [front_1002637.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 63.23%
+--------------------------------------------------
+Result of image [front_1011481.jpg]:
+	Target: IdentificationCard_front
+	Prediction: CitizenCardV1_front
+	Confidence: 90.54%
+--------------------------------------------------
+Result of image [back_1011491.jpg]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 75.28%
+--------------------------------------------------
+Result of image [front_1008893.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 91.72%
+--------------------------------------------------
+Result of image [front_1000076.jpg]:
+	Target: Passport
+	Prediction: CitizenCardV1_front
+	Confidence: 54.92%
+--------------------------------------------------
+Result of image [front_1005486.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 89.91%
+--------------------------------------------------
+Result of image [front_1011491.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 83.57%
+--------------------------------------------------
+Result of image [front_1006899.jpg]:
+	Target: IdentificationCard_front
+	Prediction: LicenseCard
+	Confidence: 70.00%
+--------------------------------------------------
+Result of image [front_1006676.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 74.44%
+--------------------------------------------------
+Result of image [back_1004588.jpg]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1009240.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 65.19%
+--------------------------------------------------
+Result of image [front_1003992.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 91.92%
+--------------------------------------------------
+Result of image [front_1010872.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Passport
+	Confidence: 70.25%
+--------------------------------------------------
+Result of image [front_1005643.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 61.47%
+--------------------------------------------------
+Result of image [front_1009405.jpg]:
+	Target: IdentificationCard_front
+	Prediction: LicenseCard
+	Confidence: 62.24%
+--------------------------------------------------
+Result of image [front_1011240.jpg]:
+	Target: IdentificationCard_front
+	Prediction: CitizenCardV1_front
+	Confidence: 87.12%
+--------------------------------------------------
+Result of image [front_1008744.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Passport
+	Confidence: 80.49%
+--------------------------------------------------
+Result of image [front_1008355.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 97.33%
+--------------------------------------------------
+Result of image [front_1004588.jpg]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.24%
+--------------------------------------------------
+Result of image [front_1005217.jpg]:
+	Target: IdentificationCard_front
+	Prediction: LicenseCard
+	Confidence: 73.17%
+--------------------------------------------------
+Result of image [front_1003865.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 58.75%
+--------------------------------------------------
+Result of image [back_1004344.jpg]:
+	Target: IdentificationCard_back
+	Prediction: Passport
+	Confidence: 65.38%
+--------------------------------------------------
+Result of image [front_1001135.jpg]:
+	Target: IdentificationCard_front
+	Prediction: CitizenCardV1_front
+	Confidence: 86.01%
+
+Total testing time: 01:03:41

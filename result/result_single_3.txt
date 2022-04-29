@@ -1,0 +1,60 @@
+Training...
+Epoch [ 0] : time: 00:14:08 | last_lr: 0.000010 | train_loss: 0.3793 | val_loss: 0.1624
+Epoch [ 1] : time: 00:15:15 | last_lr: 0.000028 | train_loss: 0.1232 | val_loss: 0.0966
+Epoch [ 2] : time: 00:15:04 | last_lr: 0.000052 | train_loss: 0.0843 | val_loss: 0.0759
+Epoch [ 3] : time: 00:15:19 | last_lr: 0.000076 | train_loss: 0.0790 | val_loss: 0.0688
+Epoch [ 4] : time: 00:15:07 | last_lr: 0.000094 | train_loss: 0.0782 | val_loss: 0.0633
+--------------------
+Epoch [ 5] : time: 00:14:12 | last_lr: 0.000100 | train_loss: 0.0757 | val_loss: 0.0672
+Epoch [ 6] : time: 00:14:28 | last_lr: 0.000099 | train_loss: 0.0678 | val_loss: 0.0887
+Epoch [ 7] : time: 00:13:38 | last_lr: 0.000095 | train_loss: 0.0660 | val_loss: 0.0629
+Epoch [ 8] : time: 00:14:56 | last_lr: 0.000089 | train_loss: 0.0634 | val_loss: 0.0600
+Epoch [ 9] : time: 00:16:05 | last_lr: 0.000081 | train_loss: 0.0597 | val_loss: 0.0546
+--------------------
+Epoch [10] : time: 00:15:27 | last_lr: 0.000072 | train_loss: 0.0588 | val_loss: 0.0554
+Epoch [11] : time: 00:12:59 | last_lr: 0.000061 | train_loss: 0.0558 | val_loss: 0.0534
+Epoch [12] : time: 00:14:41 | last_lr: 0.000050 | train_loss: 0.0533 | val_loss: 0.0520
+Epoch [13] : time: 00:14:27 | last_lr: 0.000039 | train_loss: 0.0537 | val_loss: 0.0500
+Epoch [14] : time: 00:10:47 | last_lr: 0.000028 | train_loss: 0.0497 | val_loss: 0.0493
+--------------------
+Epoch [15] : time: 00:11:14 | last_lr: 0.000019 | train_loss: 0.0480 | val_loss: 0.0490
+Epoch [16] : time: 00:14:30 | last_lr: 0.000011 | train_loss: 0.0472 | val_loss: 0.0467
+Epoch [17] : time: 00:14:36 | last_lr: 0.000005 | train_loss: 0.0458 | val_loss: 0.0457
+Epoch [18] : time: 00:13:30 | last_lr: 0.000001 | train_loss: 0.0445 | val_loss: 0.0447
+Epoch [19] : time: 00:14:28 | last_lr: 0.000000 | train_loss: 0.0439 | val_loss: 0.0449
+--------------------
+Total training time: 04:45:32
+Evaluating...
+Got checkpoint [segm_single_3_best.pth]
+loading annotations into memory...
+Done (t=0.05s)
+creating index...
+index created!
+creating index...
+index created!
+Accumulating evaluation results...
+DONE (t=0.27s).
+IoU metric: segm
+Category [0] : 0.840
+=> All categories mAP: 0.840
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.840
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.990
+ Average Precision  (AP) @[ IoU=0.55      | area=   all | maxDets=100 ] = 0.989
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.989
+ Average Precision  (AP) @[ IoU=0.65      | area=   all | maxDets=100 ] = 0.978
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.965
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.948
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.894
+ Average Precision  (AP) @[ IoU=0.85      | area=   all | maxDets=100 ] = 0.805
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = 0.616
+ Average Precision  (AP) @[ IoU=0.95      | area=   all | maxDets=100 ] = 0.229
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.840
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.880
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.881
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.881
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.881
+Total testing time: 00:05:44

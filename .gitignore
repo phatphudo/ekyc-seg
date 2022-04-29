@@ -4,3 +4,7 @@ __pycache__/
 data/*
 runs/*
 repos/*
+
+*.png
+*.pth
+*.zip

@@ -1,0 +1,4092 @@
+                    Class |      Cases |    P @0.85 |    R @0.85 |  Acc @0.85 |   Clfn_acc
+       CitizenCardV1_back |        189 |      0.400 |      0.889 |     38.10% |     53.44%
+      CitizenCardV1_front |        189 |      0.649 |      0.741 |     52.91% |     72.49%
+       CitizenCardV2_back |        422 |      0.444 |      0.792 |     39.81% |     68.25%
+      CitizenCardV2_front |        422 |      0.636 |      0.655 |     47.63% |     56.40%
+  IdentificationCard_back |        552 |      0.387 |      0.832 |     35.87% |     88.41%
+ IdentificationCard_front |        558 |      0.345 |      0.809 |     31.90% |     49.10%
+                 Passport |         11 |      0.000 |      0.000 |      0.00% |      9.09%
+                      All |       2343 |      0.409 |      0.674 |     39.14% |     65.17%
+
+Total failed cases: 816
+--------------------------------------------------
+Result of image [front_1011703]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 83.42%
+--------------------------------------------------
+Result of image [back_1001323]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 71.42%
+--------------------------------------------------
+Result of image [back_1007614]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 68.34%
+--------------------------------------------------
+Result of image [front_1000354]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.97%
+--------------------------------------------------
+Result of image [front_1004185]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.68%
+--------------------------------------------------
+Result of image [back_1011146]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 92.89%
+--------------------------------------------------
+Result of image [front_1007620]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008730]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005067]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 81.26%
+--------------------------------------------------
+Result of image [back_1007135]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.04%
+--------------------------------------------------
+Result of image [front_1006536]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 96.94%
+--------------------------------------------------
+Result of image [back_1001316]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 70.92%
+--------------------------------------------------
+Result of image [front_1005452]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002729]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 57.13%
+--------------------------------------------------
+Result of image [front_1001400]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.41%
+--------------------------------------------------
+Result of image [front_1012039]:
+	Target: CitizenCardV1_front
+	Prediction: Passport
+	Confidence: 56.45%
+--------------------------------------------------
+Result of image [back_1005836]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 96.89%
+--------------------------------------------------
+Result of image [front_1003845]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012028]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005079]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 92.84%
+--------------------------------------------------
+Result of image [front_1001389]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001367]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.04%
+--------------------------------------------------
+Result of image [front_1003832]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.77%
+--------------------------------------------------
+Result of image [front_1005274]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 74.97%
+--------------------------------------------------
+Result of image [front_1004040]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.74%
+--------------------------------------------------
+Result of image [back_1008940]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 88.42%
+--------------------------------------------------
+Result of image [back_1005660]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 84.12%
+--------------------------------------------------
+Result of image [front_1005469]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 67.26%
+--------------------------------------------------
+Result of image [front_1005078]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005601]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 91.01%
+--------------------------------------------------
+Result of image [front_1007977]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 82.56%
+--------------------------------------------------
+Result of image [front_1005960]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.07%
+--------------------------------------------------
+Result of image [front_1001343]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.88%
+--------------------------------------------------
+Result of image [front_1001379]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.93%
+--------------------------------------------------
+Result of image [back_1002827]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.99%
+--------------------------------------------------
+Result of image [front_1001174]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.83%
+--------------------------------------------------
+Result of image [front_1012004]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 72.15%
+--------------------------------------------------
+Result of image [back_1005549]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 88.13%
+--------------------------------------------------
+Result of image [back_1001465]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 82.98%
+--------------------------------------------------
+Result of image [front_1005399]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.61%
+--------------------------------------------------
+Result of image [front_1005196]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 81.30%
+--------------------------------------------------
+Result of image [front_1011791]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 98.98%
+--------------------------------------------------
+Result of image [back_1000076]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 54.45%
+--------------------------------------------------
+Result of image [front_1007716]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000095]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 50.66%
+--------------------------------------------------
+Result of image [front_1005546]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008496]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 85.95%
+--------------------------------------------------
+Result of image [front_1001395]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 82.59%
+--------------------------------------------------
+Result of image [back_1004898]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.24%
+--------------------------------------------------
+Result of image [back_1002570]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 80.22%
+--------------------------------------------------
+Result of image [front_1004580]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.69%
+--------------------------------------------------
+Result of image [back_1005401]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 96.50%
+--------------------------------------------------
+Result of image [back_1008381]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 60.86%
+--------------------------------------------------
+Result of image [back_1006101]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005552]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 79.85%
+--------------------------------------------------
+Result of image [front_1011869]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004770]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005836]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.27%
+--------------------------------------------------
+Result of image [front_1007052]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001181]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001139]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002657]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 90.00%
+--------------------------------------------------
+Result of image [back_1007230]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.80%
+--------------------------------------------------
+Result of image [front_1008940]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001378]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004346]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 77.74%
+--------------------------------------------------
+Result of image [back_1003627]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.86%
+--------------------------------------------------
+Result of image [back_1005680]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1010742]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.18%
+--------------------------------------------------
+Result of image [front_1001366]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.27%
+--------------------------------------------------
+Result of image [front_1002581]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001150]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.27%
+--------------------------------------------------
+Result of image [back_1002485]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004549]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007135]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 69.92%
+--------------------------------------------------
+Result of image [front_1004240]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 71.34%
+--------------------------------------------------
+Result of image [back_1005705]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007144]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.04%
+--------------------------------------------------
+Result of image [back_1002484]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 82.26%
+--------------------------------------------------
+Result of image [back_1012039]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 92.82%
+--------------------------------------------------
+Result of image [front_1005143]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.64%
+--------------------------------------------------
+Result of image [back_1011683]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 74.78%
+--------------------------------------------------
+Result of image [back_1007052]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 78.45%
+--------------------------------------------------
+Result of image [back_1006446]:
+	Target: CitizenCardV1_back
+	Prediction: IdentificationCard_front
+	Confidence: 73.26%
+--------------------------------------------------
+Result of image [front_1008706]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 92.86%
+--------------------------------------------------
+Result of image [back_1001369]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 92.16%
+--------------------------------------------------
+Result of image [front_1005657]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.68%
+--------------------------------------------------
+Result of image [front_1005894]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002575]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008731]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 76.79%
+--------------------------------------------------
+Result of image [front_1005361]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.23%
+--------------------------------------------------
+Result of image [back_1002683]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 69.82%
+--------------------------------------------------
+Result of image [back_1005002]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 56.21%
+--------------------------------------------------
+Result of image [front_1005285]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002580]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002469]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003885]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002729]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1000036]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003634]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.73%
+--------------------------------------------------
+Result of image [front_1011851]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 87.77%
+--------------------------------------------------
+Result of image [back_1010296]:
+	Target: CitizenCardV2_back
+	Prediction: IdentificationCard_back
+	Confidence: 54.70%
+--------------------------------------------------
+Result of image [front_1005233]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.30%
+--------------------------------------------------
+Result of image [front_1005105]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 52.78%
+--------------------------------------------------
+Result of image [back_1003885]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008960]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 52.44%
+--------------------------------------------------
+Result of image [front_1003875]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 92.94%
+--------------------------------------------------
+Result of image [back_1003407]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001372]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 62.05%
+--------------------------------------------------
+Result of image [back_1001328]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.81%
+--------------------------------------------------
+Result of image [front_1003894]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 71.60%
+--------------------------------------------------
+Result of image [front_1001121]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.48%
+--------------------------------------------------
+Result of image [front_1005145]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005692]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008141]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 73.88%
+--------------------------------------------------
+Result of image [back_1005567]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.67%
+--------------------------------------------------
+Result of image [front_1003635]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 88.21%
+--------------------------------------------------
+Result of image [front_1004865]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 93.15%
+--------------------------------------------------
+Result of image [back_1005078]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 57.12%
+--------------------------------------------------
+Result of image [front_1001333]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.71%
+--------------------------------------------------
+Result of image [back_1008273]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 87.03%
+--------------------------------------------------
+Result of image [front_1002599]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.82%
+--------------------------------------------------
+Result of image [front_1005798]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 94.69%
+--------------------------------------------------
+Result of image [back_1005945]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 80.18%
+--------------------------------------------------
+Result of image [front_1007461]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002614]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001330]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.88%
+--------------------------------------------------
+Result of image [back_1005652]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.17%
+--------------------------------------------------
+Result of image [front_1005157]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001374]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001348]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.23%
+--------------------------------------------------
+Result of image [back_1002549]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.22%
+--------------------------------------------------
+Result of image [back_1011933]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005434]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002623]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 75.69%
+--------------------------------------------------
+Result of image [front_1004887]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 65.95%
+--------------------------------------------------
+Result of image [front_1001130]:
+	Target: Passport
+	Prediction: Other
+	Confidence: 54.53%
+--------------------------------------------------
+Result of image [back_1010557]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 69.75%
+--------------------------------------------------
+Result of image [front_1008207]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 93.02%
+--------------------------------------------------
+Result of image [back_1001306]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.24%
+--------------------------------------------------
+Result of image [back_1009909]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.69%
+--------------------------------------------------
+Result of image [back_1007198]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005822]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.82%
+--------------------------------------------------
+Result of image [back_1010158]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 80.56%
+--------------------------------------------------
+Result of image [front_1005882]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.02%
+--------------------------------------------------
+Result of image [back_1005496]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 87.23%
+--------------------------------------------------
+Result of image [front_1002645]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 72.84%
+--------------------------------------------------
+Result of image [back_1004968]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005371]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005721]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 89.86%
+--------------------------------------------------
+Result of image [front_1001106]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002628]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.62%
+--------------------------------------------------
+Result of image [back_1001112]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005423]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 50.08%
+--------------------------------------------------
+Result of image [front_1009909]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006661]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 84.46%
+--------------------------------------------------
+Result of image [back_1002556]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001341]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001204]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.39%
+--------------------------------------------------
+Result of image [back_1002638]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 70.44%
+--------------------------------------------------
+Result of image [front_1005393]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 70.77%
+--------------------------------------------------
+Result of image [front_1005286]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011033]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011050]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 51.85%
+--------------------------------------------------
+Result of image [back_1004956]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 97.25%
+--------------------------------------------------
+Result of image [front_1001215]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007006]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 75.27%
+--------------------------------------------------
+Result of image [front_1004206]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.89%
+--------------------------------------------------
+Result of image [back_1008958]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 52.00%
+--------------------------------------------------
+Result of image [front_1005652]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 56.69%
+--------------------------------------------------
+Result of image [front_1005706]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004026]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.68%
+--------------------------------------------------
+Result of image [front_1005608]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.54%
+--------------------------------------------------
+Result of image [front_1004861]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002473]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 52.36%
+--------------------------------------------------
+Result of image [back_1011335]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 51.30%
+--------------------------------------------------
+Result of image [back_1006617]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.29%
+--------------------------------------------------
+Result of image [front_1001403]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 94.61%
+--------------------------------------------------
+Result of image [back_1010513]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002489]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 91.15%
+--------------------------------------------------
+Result of image [back_1011759]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001336]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.80%
+--------------------------------------------------
+Result of image [back_1010921]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.51%
+--------------------------------------------------
+Result of image [front_1000041]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 76.01%
+--------------------------------------------------
+Result of image [front_1005082]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011683]:
+	Target: CitizenCardV2_front
+	Prediction: LicenseCard
+	Confidence: 99.21%
+--------------------------------------------------
+Result of image [front_1009978]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 52.27%
+--------------------------------------------------
+Result of image [front_1001185]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003660]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 64.19%
+--------------------------------------------------
+Result of image [front_1006012]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006432]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 68.28%
+--------------------------------------------------
+Result of image [back_1008033]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002697]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 75.18%
+--------------------------------------------------
+Result of image [front_1005549]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001393]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.64%
+--------------------------------------------------
+Result of image [front_1002686]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008052]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 83.19%
+--------------------------------------------------
+Result of image [front_1007574]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.45%
+--------------------------------------------------
+Result of image [back_1007006]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 81.40%
+--------------------------------------------------
+Result of image [back_1005875]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 52.65%
+--------------------------------------------------
+Result of image [back_1002554]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 56.72%
+--------------------------------------------------
+Result of image [front_1005118]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008982]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 78.11%
+--------------------------------------------------
+Result of image [back_1005285]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005853]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004663]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011901]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005688]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 80.84%
+--------------------------------------------------
+Result of image [front_1007946]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 89.70%
+--------------------------------------------------
+Result of image [front_1011145]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.51%
+--------------------------------------------------
+Result of image [front_1008550]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.18%
+--------------------------------------------------
+Result of image [back_1011917]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 65.08%
+--------------------------------------------------
+Result of image [front_1005116]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.43%
+--------------------------------------------------
+Result of image [front_1007670]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 86.77%
+--------------------------------------------------
+Result of image [front_1005026]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.36%
+--------------------------------------------------
+Result of image [front_1011062]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 83.05%
+--------------------------------------------------
+Result of image [front_1005179]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005894]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 67.60%
+--------------------------------------------------
+Result of image [front_1004867]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.70%
+--------------------------------------------------
+Result of image [front_1005091]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011849]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001385]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004910]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 73.96%
+--------------------------------------------------
+Result of image [back_1002589]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.58%
+--------------------------------------------------
+Result of image [front_1001180]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.11%
+--------------------------------------------------
+Result of image [front_1008625]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004776]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012071]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.63%
+--------------------------------------------------
+Result of image [front_1004649]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008449]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 88.81%
+--------------------------------------------------
+Result of image [front_1002467]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1010079]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004093]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.66%
+--------------------------------------------------
+Result of image [back_1009875]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 98.07%
+--------------------------------------------------
+Result of image [front_1006849]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004992]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 83.01%
+--------------------------------------------------
+Result of image [back_1011053]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 90.82%
+--------------------------------------------------
+Result of image [front_1002611]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.78%
+--------------------------------------------------
+Result of image [front_1001337]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004205]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 87.72%
+--------------------------------------------------
+Result of image [front_1001186]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.66%
+--------------------------------------------------
+Result of image [front_1004957]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 84.66%
+--------------------------------------------------
+Result of image [back_1006012]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007395]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 65.43%
+--------------------------------------------------
+Result of image [back_1002584]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.63%
+--------------------------------------------------
+Result of image [front_1005594]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.88%
+--------------------------------------------------
+Result of image [front_1001382]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 57.78%
+--------------------------------------------------
+Result of image [front_1005373]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002576]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.68%
+--------------------------------------------------
+Result of image [back_1004472]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007106]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.83%
+--------------------------------------------------
+Result of image [front_1005085]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 91.11%
+--------------------------------------------------
+Result of image [back_1001139]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010656]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.70%
+--------------------------------------------------
+Result of image [front_1004871]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010217]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.59%
+--------------------------------------------------
+Result of image [back_1005721]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.43%
+--------------------------------------------------
+Result of image [front_1008012]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1012004]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 63.21%
+--------------------------------------------------
+Result of image [front_1011759]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008581]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 67.12%
+--------------------------------------------------
+Result of image [back_1005634]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002467]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004863]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 62.75%
+--------------------------------------------------
+Result of image [front_1008615]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 67.33%
+--------------------------------------------------
+Result of image [back_1004448]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008958]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005179]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.82%
+--------------------------------------------------
+Result of image [front_1001375]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010126]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007207]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.76%
+--------------------------------------------------
+Result of image [front_1005497]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 98.68%
+--------------------------------------------------
+Result of image [back_1002639]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004892]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005920]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 82.95%
+--------------------------------------------------
+Result of image [back_1002635]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 78.16%
+--------------------------------------------------
+Result of image [front_1002554]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005494]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.57%
+--------------------------------------------------
+Result of image [front_1005692]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002482]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 63.71%
+--------------------------------------------------
+Result of image [back_1001336]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011641]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 63.71%
+--------------------------------------------------
+Result of image [front_1002477]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.57%
+--------------------------------------------------
+Result of image [back_1005946]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005393]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 71.68%
+--------------------------------------------------
+Result of image [front_1009789]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.61%
+--------------------------------------------------
+Result of image [back_1008305]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002643]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003955]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 91.11%
+--------------------------------------------------
+Result of image [front_1010557]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001401]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007110]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.59%
+--------------------------------------------------
+Result of image [back_1002836]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004968]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005482]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.82%
+--------------------------------------------------
+Result of image [front_1008077]:
+	Target: CitizenCardV1_front
+	Prediction: IdentificationCard_front
+	Confidence: 68.00%
+--------------------------------------------------
+Result of image [front_1002485]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.34%
+--------------------------------------------------
+Result of image [front_1001378]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010849]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1009196]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001111]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.36%
+--------------------------------------------------
+Result of image [front_1005447]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007691]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 98.14%
+--------------------------------------------------
+Result of image [front_1001142]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.77%
+--------------------------------------------------
+Result of image [back_1001181]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 64.84%
+--------------------------------------------------
+Result of image [front_1005073]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1006109]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 52.06%
+--------------------------------------------------
+Result of image [front_1007774]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011928]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002639]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.85%
+--------------------------------------------------
+Result of image [front_1008663]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 94.76%
+--------------------------------------------------
+Result of image [front_1002478]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005660]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005711]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 77.22%
+--------------------------------------------------
+Result of image [front_1002474]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002591]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 98.86%
+--------------------------------------------------
+Result of image [front_1002642]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002614]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 90.20%
+--------------------------------------------------
+Result of image [front_1002590]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004346]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001358]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.81%
+--------------------------------------------------
+Result of image [front_1004954]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 70.58%
+--------------------------------------------------
+Result of image [back_1001311]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.55%
+--------------------------------------------------
+Result of image [front_1001339]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 64.33%
+--------------------------------------------------
+Result of image [front_1001406]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.45%
+--------------------------------------------------
+Result of image [front_1001327]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.59%
+--------------------------------------------------
+Result of image [front_1004462]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005176]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 99.52%
+--------------------------------------------------
+Result of image [front_1001377]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005258]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 82.82%
+--------------------------------------------------
+Result of image [front_1011833]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 53.91%
+--------------------------------------------------
+Result of image [back_1005429]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 51.22%
+--------------------------------------------------
+Result of image [front_1002542]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 91.54%
+--------------------------------------------------
+Result of image [front_1001128]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.94%
+--------------------------------------------------
+Result of image [front_1001383]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.67%
+--------------------------------------------------
+Result of image [back_1001370]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1003893]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 72.57%
+--------------------------------------------------
+Result of image [front_1007121]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.65%
+--------------------------------------------------
+Result of image [front_1001353]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 57.43%
+--------------------------------------------------
+Result of image [back_1008675]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.46%
+--------------------------------------------------
+Result of image [back_1001362]:
+	Target: CitizenCardV2_back
+	Prediction: IdentificationCard_back
+	Confidence: 86.18%
+--------------------------------------------------
+Result of image [back_1008580]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008960]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004943]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.53%
+--------------------------------------------------
+Result of image [front_1010301]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1012054]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 88.35%
+--------------------------------------------------
+Result of image [back_1005718]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 85.19%
+--------------------------------------------------
+Result of image [front_1012047]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.35%
+--------------------------------------------------
+Result of image [front_1012065]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002558]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 60.29%
+--------------------------------------------------
+Result of image [front_1011746]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006101]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007503]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 90.57%
+--------------------------------------------------
+Result of image [front_1003769]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.23%
+--------------------------------------------------
+Result of image [front_1008078]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 91.91%
+--------------------------------------------------
+Result of image [front_1011053]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005519]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010296]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 86.20%
+--------------------------------------------------
+Result of image [front_1008649]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011602]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.13%
+--------------------------------------------------
+Result of image [front_1005335]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.44%
+--------------------------------------------------
+Result of image [front_1002558]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 71.15%
+--------------------------------------------------
+Result of image [back_1004820]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 80.46%
+--------------------------------------------------
+Result of image [back_1008589]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 59.84%
+--------------------------------------------------
+Result of image [back_1002645]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008921]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 68.76%
+--------------------------------------------------
+Result of image [front_1005664]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 79.93%
+--------------------------------------------------
+Result of image [front_1001381]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005001]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005423]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 68.20%
+--------------------------------------------------
+Result of image [front_1001316]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 98.80%
+--------------------------------------------------
+Result of image [front_1010480]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.53%
+--------------------------------------------------
+Result of image [front_1008982]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 97.53%
+--------------------------------------------------
+Result of image [front_1005677]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.62%
+--------------------------------------------------
+Result of image [front_1011214]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 68.64%
+--------------------------------------------------
+Result of image [back_1001126]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005644]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.75%
+--------------------------------------------------
+Result of image [front_1005080]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.83%
+--------------------------------------------------
+Result of image [front_1007826]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 97.99%
+--------------------------------------------------
+Result of image [front_1012025]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011492]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.19%
+--------------------------------------------------
+Result of image [front_1002556]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007747]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 85.67%
+--------------------------------------------------
+Result of image [front_1006745]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 80.87%
+--------------------------------------------------
+Result of image [front_1005063]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 65.49%
+--------------------------------------------------
+Result of image [front_1011963]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1003416]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 85.80%
+--------------------------------------------------
+Result of image [front_1010500]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 98.66%
+--------------------------------------------------
+Result of image [back_1006971]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 78.33%
+--------------------------------------------------
+Result of image [back_1010535]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 63.70%
+--------------------------------------------------
+Result of image [front_1011952]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.86%
+--------------------------------------------------
+Result of image [front_1005072]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.14%
+--------------------------------------------------
+Result of image [front_1007454]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002605]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003887]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 94.21%
+--------------------------------------------------
+Result of image [front_1004313]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.48%
+--------------------------------------------------
+Result of image [back_1005959]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 98.98%
+--------------------------------------------------
+Result of image [front_1006709]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.21%
+--------------------------------------------------
+Result of image [front_1004362]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 96.38%
+--------------------------------------------------
+Result of image [front_1002703]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005582]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 55.13%
+--------------------------------------------------
+Result of image [back_1005598]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 51.99%
+--------------------------------------------------
+Result of image [front_1002836]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 86.36%
+--------------------------------------------------
+Result of image [back_1005055]:
+	Target: CitizenCardV1_back
+	Prediction: IdentificationCard_front
+	Confidence: 72.35%
+--------------------------------------------------
+Result of image [front_1005539]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012054]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 86.76%
+--------------------------------------------------
+Result of image [front_1008977]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005680]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 62.91%
+--------------------------------------------------
+Result of image [back_1003774]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 91.70%
+--------------------------------------------------
+Result of image [front_1001376]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 85.85%
+--------------------------------------------------
+Result of image [front_1005205]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1009420]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 75.78%
+--------------------------------------------------
+Result of image [back_1000095]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000057]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.63%
+--------------------------------------------------
+Result of image [front_1004810]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.21%
+--------------------------------------------------
+Result of image [front_1010622]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 67.48%
+--------------------------------------------------
+Result of image [front_1005066]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 50.84%
+--------------------------------------------------
+Result of image [back_1005335]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001179]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002642]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 60.30%
+--------------------------------------------------
+Result of image [back_1010446]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 92.10%
+--------------------------------------------------
+Result of image [back_1012046]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 53.07%
+--------------------------------------------------
+Result of image [front_1001107]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 75.64%
+--------------------------------------------------
+Result of image [front_1007678]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 59.93%
+--------------------------------------------------
+Result of image [front_1010192]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001403]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007265]:
+	Target: Passport
+	Prediction: Other
+	Confidence: 51.57%
+--------------------------------------------------
+Result of image [back_1010741]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 86.60%
+--------------------------------------------------
+Result of image [front_1006695]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008168]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010116]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 89.22%
+--------------------------------------------------
+Result of image [front_1011939]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 67.18%
+--------------------------------------------------
+Result of image [back_1005064]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 96.82%
+--------------------------------------------------
+Result of image [front_1007482]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005640]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 66.90%
+--------------------------------------------------
+Result of image [front_1000042]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.15%
+--------------------------------------------------
+Result of image [front_1005588]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 86.78%
+--------------------------------------------------
+Result of image [front_1002559]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.20%
+--------------------------------------------------
+Result of image [back_1002590]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 71.53%
+--------------------------------------------------
+Result of image [front_1010000]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 94.29%
+--------------------------------------------------
+Result of image [back_1012056]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005755]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005819]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 69.04%
+--------------------------------------------------
+Result of image [front_1010801]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 74.94%
+--------------------------------------------------
+Result of image [back_1002478]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001393]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002661]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.64%
+--------------------------------------------------
+Result of image [back_1009420]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 83.85%
+--------------------------------------------------
+Result of image [front_1011139]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005469]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.45%
+--------------------------------------------------
+Result of image [front_1001324]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.93%
+--------------------------------------------------
+Result of image [front_1004963]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005419]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.02%
+--------------------------------------------------
+Result of image [front_1002626]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 81.97%
+--------------------------------------------------
+Result of image [front_1010080]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.76%
+--------------------------------------------------
+Result of image [front_1005096]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002860]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.18%
+--------------------------------------------------
+Result of image [back_1005846]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 50.37%
+--------------------------------------------------
+Result of image [front_1010162]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1012028]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 59.23%
+--------------------------------------------------
+Result of image [front_1002573]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 86.26%
+--------------------------------------------------
+Result of image [front_1002680]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011481]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004390]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005655]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1009882]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1009511]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 72.16%
+--------------------------------------------------
+Result of image [front_1003893]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 87.87%
+--------------------------------------------------
+Result of image [front_1005098]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 72.69%
+--------------------------------------------------
+Result of image [front_1004934]:
+	Target: CitizenCardV2_front
+	Prediction: IdentificationCard_front
+	Confidence: 62.00%
+--------------------------------------------------
+Result of image [front_1005474]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 51.35%
+--------------------------------------------------
+Result of image [back_1007256]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 63.52%
+--------------------------------------------------
+Result of image [front_1004735]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002583]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.91%
+--------------------------------------------------
+Result of image [back_1007461]:
+	Target: CitizenCardV1_back
+	Prediction: CitizenCardV2_back
+	Confidence: 78.85%
+--------------------------------------------------
+Result of image [front_1010921]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 53.23%
+--------------------------------------------------
+Result of image [back_1007737]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 85.31%
+--------------------------------------------------
+Result of image [front_1005873]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.11%
+--------------------------------------------------
+Result of image [front_1007198]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004951]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.79%
+--------------------------------------------------
+Result of image [back_1002706]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005027]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 70.70%
+--------------------------------------------------
+Result of image [front_1004863]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 63.67%
+--------------------------------------------------
+Result of image [front_1005691]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.63%
+--------------------------------------------------
+Result of image [front_1002630]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 97.24%
+--------------------------------------------------
+Result of image [front_1000046]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.52%
+--------------------------------------------------
+Result of image [back_1004362]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 83.27%
+--------------------------------------------------
+Result of image [back_1001374]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 82.50%
+--------------------------------------------------
+Result of image [back_1011491]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 67.60%
+--------------------------------------------------
+Result of image [front_1004659]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005429]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001360]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 92.01%
+--------------------------------------------------
+Result of image [back_1010217]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005946]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000076]:
+	Target: Passport
+	Prediction: IdentificationCard_front
+	Confidence: 91.21%
+--------------------------------------------------
+Result of image [front_1008967]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 73.42%
+--------------------------------------------------
+Result of image [front_1009471]:
+	Target: CitizenCardV2_front
+	Prediction: LicenseCard
+	Confidence: 97.38%
+--------------------------------------------------
+Result of image [back_1002473]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006446]:
+	Target: CitizenCardV1_front
+	Prediction: IdentificationCard_front
+	Confidence: 79.61%
+--------------------------------------------------
+Result of image [back_1008706]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 70.06%
+--------------------------------------------------
+Result of image [back_1004871]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 86.54%
+--------------------------------------------------
+Result of image [back_1004735]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 90.78%
+--------------------------------------------------
+Result of image [front_1008230]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002602]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.45%
+--------------------------------------------------
+Result of image [back_1004867]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004784]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 73.58%
+--------------------------------------------------
+Result of image [front_1005718]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 77.52%
+--------------------------------------------------
+Result of image [back_1005537]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 67.62%
+--------------------------------------------------
+Result of image [front_1001369]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.16%
+--------------------------------------------------
+Result of image [back_1008099]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.62%
+--------------------------------------------------
+Result of image [back_1001123]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007299]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 59.19%
+--------------------------------------------------
+Result of image [front_1008412]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.27%
+--------------------------------------------------
+Result of image [back_1005594]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012021]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008625]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 87.58%
+--------------------------------------------------
+Result of image [front_1005972]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.28%
+--------------------------------------------------
+Result of image [front_1009493]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 86.84%
+--------------------------------------------------
+Result of image [back_1002619]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 57.63%
+--------------------------------------------------
+Result of image [front_1007299]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 82.33%
+--------------------------------------------------
+Result of image [front_1008262]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012013]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.54%
+--------------------------------------------------
+Result of image [front_1001113]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.37%
+--------------------------------------------------
+Result of image [back_1005679]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011985]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005753]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1009882]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001370]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 57.96%
+--------------------------------------------------
+Result of image [front_1006620]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 85.88%
+--------------------------------------------------
+Result of image [front_1009906]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000048]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 87.95%
+--------------------------------------------------
+Result of image [back_1011776]:
+	Target: CitizenCardV2_back
+	Prediction: IdentificationCard_back
+	Confidence: 66.03%
+--------------------------------------------------
+Result of image [front_1004816]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002730]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.14%
+--------------------------------------------------
+Result of image [front_1008579]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 70.96%
+--------------------------------------------------
+Result of image [back_1001385]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005716]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001465]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 91.04%
+--------------------------------------------------
+Result of image [front_1008033]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001365]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.00%
+--------------------------------------------------
+Result of image [front_1005775]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 84.66%
+--------------------------------------------------
+Result of image [front_1000080]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.50%
+--------------------------------------------------
+Result of image [front_1004249]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.02%
+--------------------------------------------------
+Result of image [front_1009876]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 68.34%
+--------------------------------------------------
+Result of image [front_1008991]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005020]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 69.75%
+--------------------------------------------------
+Result of image [front_1003995]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 94.69%
+--------------------------------------------------
+Result of image [front_1007155]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002666]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 98.83%
+--------------------------------------------------
+Result of image [front_1008640]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002584]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000023]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.88%
+--------------------------------------------------
+Result of image [front_1007866]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 80.55%
+--------------------------------------------------
+Result of image [back_1011962]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 62.59%
+--------------------------------------------------
+Result of image [front_1001144]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.77%
+--------------------------------------------------
+Result of image [back_1004217]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 61.44%
+--------------------------------------------------
+Result of image [front_1001363]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.68%
+--------------------------------------------------
+Result of image [back_1004580]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011703]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.68%
+--------------------------------------------------
+Result of image [back_1001211]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.42%
+--------------------------------------------------
+Result of image [front_1005548]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012056]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001347]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.80%
+--------------------------------------------------
+Result of image [back_1007998]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005079]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002683]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 62.83%
+--------------------------------------------------
+Result of image [back_1001122]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002580]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.93%
+--------------------------------------------------
+Result of image [front_1008444]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005104]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.15%
+--------------------------------------------------
+Result of image [front_1010919]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 80.79%
+--------------------------------------------------
+Result of image [back_1005001]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006164]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 73.49%
+--------------------------------------------------
+Result of image [front_1011940]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 75.99%
+--------------------------------------------------
+Result of image [front_1005002]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004365]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005000]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 92.39%
+--------------------------------------------------
+Result of image [back_1005504]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 84.33%
+--------------------------------------------------
+Result of image [back_1001345]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 62.47%
+--------------------------------------------------
+Result of image [front_1005064]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.14%
+--------------------------------------------------
+Result of image [front_1002582]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007716]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 88.64%
+--------------------------------------------------
+Result of image [front_1005211]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 83.49%
+--------------------------------------------------
+Result of image [front_1011672]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005526]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005205]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 69.02%
+--------------------------------------------------
+Result of image [front_1004956]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 79.57%
+--------------------------------------------------
+Result of image [front_1000086]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 57.91%
+--------------------------------------------------
+Result of image [front_1005259]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 68.71%
+--------------------------------------------------
+Result of image [front_1008141]:
+	Target: CitizenCardV1_front
+	Prediction: IdentificationCard_front
+	Confidence: 67.98%
+--------------------------------------------------
+Result of image [back_1004945]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 70.20%
+--------------------------------------------------
+Result of image [front_1010314]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.35%
+--------------------------------------------------
+Result of image [back_1005437]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.43%
+--------------------------------------------------
+Result of image [front_1005003]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.95%
+--------------------------------------------------
+Result of image [back_1004462]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004193]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005955]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 92.67%
+--------------------------------------------------
+Result of image [back_1010872]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 84.81%
+--------------------------------------------------
+Result of image [front_1001126]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001375]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 67.41%
+--------------------------------------------------
+Result of image [front_1001351]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.78%
+--------------------------------------------------
+Result of image [back_1006792]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005089]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 65.76%
+--------------------------------------------------
+Result of image [front_1001123]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 66.85%
+--------------------------------------------------
+Result of image [back_1004828]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.36%
+--------------------------------------------------
+Result of image [front_1008151]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010513]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001331]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005705]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1006485]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.91%
+--------------------------------------------------
+Result of image [front_1008305]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.94%
+--------------------------------------------------
+Result of image [back_1012099]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005183]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005875]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007259]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 55.21%
+--------------------------------------------------
+Result of image [back_1002542]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008587]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1006497]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 68.12%
+--------------------------------------------------
+Result of image [back_1007454]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 77.41%
+--------------------------------------------------
+Result of image [front_1004980]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.63%
+--------------------------------------------------
+Result of image [back_1003985]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 95.79%
+--------------------------------------------------
+Result of image [front_1005192]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.43%
+--------------------------------------------------
+Result of image [back_1004562]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011358]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 73.25%
+--------------------------------------------------
+Result of image [back_1005373]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003619]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002568]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003796]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 95.19%
+--------------------------------------------------
+Result of image [front_1011080]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 70.34%
+--------------------------------------------------
+Result of image [back_1007620]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 87.38%
+--------------------------------------------------
+Result of image [back_1005286]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011917]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007042]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 75.13%
+--------------------------------------------------
+Result of image [back_1011989]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.22%
+--------------------------------------------------
+Result of image [front_1005297]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.65%
+--------------------------------------------------
+Result of image [front_1002551]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008243]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 90.26%
+--------------------------------------------------
+Result of image [front_1006971]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005274]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 93.23%
+--------------------------------------------------
+Result of image [back_1001113]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001388]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.88%
+--------------------------------------------------
+Result of image [back_1003537]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 67.09%
+--------------------------------------------------
+Result of image [front_1006397]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 83.93%
+--------------------------------------------------
+Result of image [front_1001394]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.74%
+--------------------------------------------------
+Result of image [front_1010899]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.89%
+--------------------------------------------------
+Result of image [back_1011923]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.84%
+--------------------------------------------------
+Result of image [back_1008230]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 86.68%
+--------------------------------------------------
+Result of image [back_1011746]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 81.67%
+--------------------------------------------------
+Result of image [back_1007977]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 56.16%
+--------------------------------------------------
+Result of image [front_1005089]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 83.11%
+--------------------------------------------------
+Result of image [front_1008182]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.67%
+--------------------------------------------------
+Result of image [front_1010264]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.57%
+--------------------------------------------------
+Result of image [front_1009405]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001141]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008662]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005903]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010760]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.66%
+--------------------------------------------------
+Result of image [front_1005804]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.87%
+--------------------------------------------------
+Result of image [back_1008077]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.67%
+--------------------------------------------------
+Result of image [front_1009875]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 86.73%
+--------------------------------------------------
+Result of image [front_1001177]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.20%
+--------------------------------------------------
+Result of image [front_1004994]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001305]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 98.17%
+--------------------------------------------------
+Result of image [back_1001337]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 99.50%
+--------------------------------------------------
+Result of image [front_1007134]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.89%
+--------------------------------------------------
+Result of image [front_1004392]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 89.60%
+--------------------------------------------------
+Result of image [front_1004510]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001329]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 94.37%
+--------------------------------------------------
+Result of image [back_1002686]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 52.33%
+--------------------------------------------------
+Result of image [front_1005662]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 92.96%
+--------------------------------------------------
+Result of image [front_1005109]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.90%
+--------------------------------------------------
+Result of image [front_1008273]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005463]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012096]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 89.41%
+--------------------------------------------------
+Result of image [back_1011214]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007233]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005669]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003629]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 96.28%
+--------------------------------------------------
+Result of image [front_1005794]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 72.40%
+--------------------------------------------------
+Result of image [back_1002611]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008730]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 85.74%
+--------------------------------------------------
+Result of image [back_1008991]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 77.88%
+--------------------------------------------------
+Result of image [back_1001327]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1007482]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 74.79%
+--------------------------------------------------
+Result of image [front_1002489]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.60%
+--------------------------------------------------
+Result of image [back_1009471]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 78.55%
+--------------------------------------------------
+Result of image [back_1003387]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011902]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001112]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.89%
+--------------------------------------------------
+Result of image [front_1001418]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 67.22%
+--------------------------------------------------
+Result of image [back_1012025]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 82.58%
+--------------------------------------------------
+Result of image [back_1009722]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.04%
+--------------------------------------------------
+Result of image [front_1002472]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 74.25%
+--------------------------------------------------
+Result of image [front_1011756]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005688]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 88.07%
+--------------------------------------------------
+Result of image [front_1012091]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002680]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.89%
+--------------------------------------------------
+Result of image [front_1005933]:
+	Target: CitizenCardV1_front
+	Prediction: IdentificationCard_front
+	Confidence: 52.39%
+--------------------------------------------------
+Result of image [front_1002553]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.79%
+--------------------------------------------------
+Result of image [front_1005420]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 90.70%
+--------------------------------------------------
+Result of image [front_1010447]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 92.07%
+--------------------------------------------------
+Result of image [back_1005154]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.49%
+--------------------------------------------------
+Result of image [front_1008008]:
+	Target: CitizenCardV1_front
+	Prediction: Other
+	Confidence: 71.28%
+--------------------------------------------------
+Result of image [front_1002487]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001110]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011374]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 72.45%
+--------------------------------------------------
+Result of image [front_1011923]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011902]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008856]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 79.21%
+--------------------------------------------------
+Result of image [back_1002578]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 83.68%
+--------------------------------------------------
+Result of image [back_1001376]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 50.41%
+--------------------------------------------------
+Result of image [front_1002697]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.42%
+--------------------------------------------------
+Result of image [front_1001412]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 81.43%
+--------------------------------------------------
+Result of image [front_1001345]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 54.18%
+--------------------------------------------------
+Result of image [front_1011906]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 93.15%
+--------------------------------------------------
+Result of image [back_1004994]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005463]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005118]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 85.95%
+--------------------------------------------------
+Result of image [front_1001093]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.18%
+--------------------------------------------------
+Result of image [front_1004974]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 93.41%
+--------------------------------------------------
+Result of image [back_1005920]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005130]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 79.11%
+--------------------------------------------------
+Result of image [front_1011961]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1006223]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.54%
+--------------------------------------------------
+Result of image [front_1007371]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 90.91%
+--------------------------------------------------
+Result of image [front_1001318]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.91%
+--------------------------------------------------
+Result of image [back_1005632]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 96.72%
+--------------------------------------------------
+Result of image [front_1000087]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.83%
+--------------------------------------------------
+Result of image [back_1008012]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001305]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.95%
+--------------------------------------------------
+Result of image [front_1001355]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002551]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 95.97%
+--------------------------------------------------
+Result of image [front_1005401]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 60.47%
+--------------------------------------------------
+Result of image [front_1007233]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 93.61%
+--------------------------------------------------
+Result of image [front_1007148]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005371]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.37%
+--------------------------------------------------
+Result of image [back_1004325]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.07%
+--------------------------------------------------
+Result of image [front_1006106]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 91.94%
+--------------------------------------------------
+Result of image [front_1000092]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.63%
+--------------------------------------------------
+Result of image [front_1012046]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.61%
+--------------------------------------------------
+Result of image [back_1004193]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1012002]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1011869]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005504]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002715]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.12%
+--------------------------------------------------
+Result of image [back_1012059]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 66.91%
+--------------------------------------------------
+Result of image [front_1009971]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1000093]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.82%
+--------------------------------------------------
+Result of image [back_1011481]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003408]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1006536]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004241]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 92.32%
+--------------------------------------------------
+Result of image [back_1005865]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 57.25%
+--------------------------------------------------
+Result of image [front_1000056]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.14%
+--------------------------------------------------
+Result of image [front_1005208]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002572]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005067]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005903]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 69.30%
+--------------------------------------------------
+Result of image [front_1005625]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.61%
+--------------------------------------------------
+Result of image [front_1001361]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 82.60%
+--------------------------------------------------
+Result of image [front_1008135]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1011823]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008731]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 98.50%
+--------------------------------------------------
+Result of image [back_1010116]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 59.33%
+--------------------------------------------------
+Result of image [front_1003531]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1008615]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.45%
+--------------------------------------------------
+Result of image [front_1004776]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005655]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 82.28%
+--------------------------------------------------
+Result of image [front_1005784]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 96.98%
+--------------------------------------------------
+Result of image [front_1005846]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001346]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 82.48%
+--------------------------------------------------
+Result of image [front_1000071]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 67.19%
+--------------------------------------------------
+Result of image [front_1001411]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.46%
+--------------------------------------------------
+Result of image [front_1001135]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008994]:
+	Target: IdentificationCard_front
+	Prediction: Passport
+	Confidence: 99.05%
+--------------------------------------------------
+Result of image [front_1007230]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1001140]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1006079]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 88.39%
+--------------------------------------------------
+Result of image [back_1009971]:
+	Target: IdentificationCard_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001362]:
+	Target: CitizenCardV2_front
+	Prediction: Other
+	Confidence: 54.44%
+--------------------------------------------------
+Result of image [front_1006079]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005686]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.63%
+--------------------------------------------------
+Result of image [back_1005095]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 70.97%
+--------------------------------------------------
+Result of image [back_1005452]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 94.97%
+--------------------------------------------------
+Result of image [back_1010192]:
+	Target: CitizenCardV2_back
+	Prediction: IdentificationCard_back
+	Confidence: 56.56%
+--------------------------------------------------
+Result of image [front_1006485]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1007414]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 63.45%
+--------------------------------------------------
+Result of image [front_1005558]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 93.08%
+--------------------------------------------------
+Result of image [front_1008156]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 77.83%
+--------------------------------------------------
+Result of image [front_1005212]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 58.80%
+--------------------------------------------------
+Result of image [back_1002742]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 97.30%
+--------------------------------------------------
+Result of image [back_1005727]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1004993]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 96.49%
+--------------------------------------------------
+Result of image [front_1005538]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 55.50%
+--------------------------------------------------
+Result of image [back_1008243]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 76.58%
+--------------------------------------------------
+Result of image [front_1005384]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 81.59%
+--------------------------------------------------
+Result of image [back_1005615]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 85.04%
+--------------------------------------------------
+Result of image [front_1010741]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1001323]:
+	Target: CitizenCardV1_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1002475]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 98.36%
+--------------------------------------------------
+Result of image [back_1011682]:
+	Target: CitizenCardV1_back
+	Prediction: Other
+	Confidence: 93.61%
+--------------------------------------------------
+Result of image [front_1011959]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 92.02%
+--------------------------------------------------
+Result of image [front_1005973]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 97.40%
+--------------------------------------------------
+Result of image [front_1004217]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1002487]:
+	Target: CitizenCardV2_back
+	Prediction: Other
+	Confidence: 53.86%
+--------------------------------------------------
+Result of image [front_1010388]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 77.54%
+--------------------------------------------------
+Result of image [front_1010172]:
+	Target: IdentificationCard_front
+	Prediction: Other
+	Confidence: 99.48%
+--------------------------------------------------
+Result of image [front_1010079]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 92.09%
+--------------------------------------------------
+Result of image [front_1000002]:
+	Target: Passport
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1005022]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010283]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 88.50%
+--------------------------------------------------
+Result of image [front_1000036]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1003410]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [back_1005546]:
+	Target: CitizenCardV2_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1008589]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 90.46%
+--------------------------------------------------
+Result of image [front_1002638]:
+	Target: CitizenCardV2_front
+	Prediction: No predictions
+	Confidence: -100.00%
+

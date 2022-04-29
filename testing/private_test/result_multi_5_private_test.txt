@@ -1,0 +1,48 @@
+                    Class |      Cases |     P @0.9 |     R @0.9 |   Acc @0.9 |   Clfn_acc
+       CitizenCardV1_back |        189 |      0.856 |      0.994 |     85.19% |     99.47%
+      CitizenCardV1_front |        189 |      0.905 |      1.000 |     90.48% |     99.47%
+       CitizenCardV2_back |        422 |      0.877 |      1.000 |     87.68% |    100.00%
+      CitizenCardV2_front |        421 |      0.922 |      1.000 |     92.16% |     99.52%
+  IdentificationCard_back |        552 |      0.710 |      1.000 |     71.01% |     99.82%
+ IdentificationCard_front |        559 |      0.855 |      0.996 |     85.15% |     99.46%
+                 Passport |         11 |      0.909 |      1.000 |     90.91% |     90.91%
+                      All |       2343 |      0.862 |      0.999 |     83.99% |     99.62%
+
+Total failed cases: 9
+--------------------------------------------------
+Result of image [back_1005401.jpg]:
+	Target: IdentificationCard_back
+	Prediction: Other
+	Confidence: 59.97%
+--------------------------------------------------
+Result of image [front_1001139.jpg]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1004857.jpg]:
+	Target: CitizenCardV1_front
+	Prediction: CitizenCardV2_front
+	Confidence: 99.26%
+--------------------------------------------------
+Result of image [back_1001139.jpg]:
+	Target: CitizenCardV1_back
+	Prediction: No predictions
+	Confidence: -100.00%
+--------------------------------------------------
+Result of image [front_1010296.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: CitizenCardV1_front
+	Confidence: 65.70%
+--------------------------------------------------
+Result of image [front_1010872.jpg]:
+	Target: CitizenCardV2_front
+	Prediction: Passport
+	Confidence: 69.87%
+--------------------------------------------------
+Result of image [front_1001135.jpg]:
+	Target: IdentificationCard_front
+	Prediction: No predictions
+	Confidence: -100.00%
+
+Total testing time: 01:22:16

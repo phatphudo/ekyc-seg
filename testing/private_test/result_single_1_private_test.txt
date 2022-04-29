@@ -1,0 +1,31 @@
+     Cases |     P @0.9 |     R @0.9 |   Acc @0.9
+      2343 |      0.358 |      0.810 |     33.03%
+
+creating index...
+index created!
+Accumulating evaluation results...
+DONE (t=0.19s).
+IoU metric: segm
+Category [0] : 0.602
+=> All categories mAP: 0.602
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.602
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.898
+ Average Precision  (AP) @[ IoU=0.55      | area=   all | maxDets=100 ] = 0.886
+ Average Precision  (AP) @[ IoU=0.60      | area=   all | maxDets=100 ] = 0.856
+ Average Precision  (AP) @[ IoU=0.65      | area=   all | maxDets=100 ] = 0.814
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.748
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.624
+ Average Precision  (AP) @[ IoU=0.80      | area=   all | maxDets=100 ] = 0.484
+ Average Precision  (AP) @[ IoU=0.85      | area=   all | maxDets=100 ] = 0.337
+ Average Precision  (AP) @[ IoU=0.90      | area=   all | maxDets=100 ] = 0.244
+ Average Precision  (AP) @[ IoU=0.95      | area=   all | maxDets=100 ] = 0.128
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.656
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.675
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.675
+Total testing time: 00:55:59
