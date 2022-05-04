@@ -53,10 +53,10 @@ class CardDetector(MaskRCNN):
         in_channels = self.roi_heads.mask_predictor.conv5_mask.in_channels
         self.roi_heads.mask_predictor = MaskRCNNPredictor(in_channels, 512, num_classes)
         
-        self.to(device)
-        
         self.model_type = model_type
         self.device = device
+        
+        self.to(device)
     
     def load_weights(self, checkpoint_path):
         if os.path.exists(checkpoint_path):
@@ -86,7 +86,7 @@ class Trainer:
         self.epochs = cfg['trainer']['epochs']
         self.optim_fn = _get_optim(cfg['trainer']['optim_fn'])
         self.optim_hp = cfg['trainer']['optim_hp']
-        if cfg['trainer']['lr_scheduler']:
+        if 'lr_scheduler' in cfg['trainer'].keys():
             self.lr_scheduler = _get_sched(cfg['trainer']['lr_scheduler'])
         else:
             self.lr_scheduler = None
@@ -223,13 +223,13 @@ class Trainer:
         if self.model_type == 'single':
             ds = SingleDataset(
                 os.path.join(self.test_dir, 'images/'),
-                os.path.join(self.test_dir, 'annotations.json/'),
+                os.path.join(self.test_dir, 'annotations.json'),
                 tfms
             )
         else:
             ds = MultiDataset(
                 os.path.join(self.test_dir, 'images/'),
-                os.path.join(self.test_dir, 'annotations.json/'),
+                os.path.join(self.test_dir, 'annotations.json'),
                 tfms
             )
         dl = DataLoader(ds, batch_size=2, num_workers=2, collate_fn=tool.collate_fn)
@@ -253,7 +253,7 @@ def get_model(cfg):
 def get_tfms(train=False):
     stats = (0.485, 0.456, 0.406), (0.229, 0.224, 0.225)
     tfms = []
-    tfms.extend([T.ToTensor(),T.Normalize(*stats)])
+    tfms.extend([T.ToTensor(), T.Normalize(*stats)])
     if train:
         tfms.extend([T.RandomAutocontrast(),
                      T.ColorJitter(brightness=.5, hue=.2)])
